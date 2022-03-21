@@ -7,15 +7,15 @@
 }
 
 body {
-    background: #b7b7a4;
+    background: #fff;
 }
 
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffe8d6;
-    background-image: linear-gradient(to top,#b7b7a4 0%,#ffe8d6 90%);
+    background: #fff;
+    background-image: linear-gradient(to top,#fff 0%,#e0dcdc 110%);
     font-size: 1.25rem;
     height: 80px;
     width: 100%;
@@ -36,26 +36,21 @@ body {
 
 
 #navbar-logo {
-    background: #b7b7a4 ;
-    background-image: linear-gradient(to top,#6b705c 0%, #b7b7a4 100% );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2.3rem;
-    display: flex;
+    width: 125px;
     cursor: pointer;
-    text-decoration: none;
-    height: 50px;
 }
 
 .nav-menu {
     list-style: none;
     display: flex;
     align-items: center;
+
 }
 
 .nav-items {
     height: 30px;
 }
+
 
 .navbar-links {
     color: #6b705c;
@@ -64,11 +59,12 @@ body {
     justify-content: center;
     width: 227px;
     text-decoration: none;
+    transition: all 0.5s ease;
+
 }
 
 .navbar-links:hover {
-    color: #fff;
-    transition: all 0.5s ease;
+    color: rgb(32, 32, 32);
 }
 
 .title-container {
@@ -79,37 +75,8 @@ body {
 }
 
 #google-main {
-    font-size: 5rem ;
-    text-decoration: 0;
-    background: #ffe8d6 ;
-    background-image: linear-gradient(to top,#45473e 0%, #a5a58d 100% );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: flex;
-    justify-content: center;
-
-}
-
-#google-mainn {
-    display: flex;
-    position: absolute;
-    font-size: 5rem ;
-    text-decoration: 0;
-    background: #ffc6ff;
-    background-image: linear-gradient(to right, #ffc6ff, #a0c4ff, #caffbf);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 0;
-    transition: opacity 0.50s;
-
-}
-
-#google-mainn:hover {
-    opacity: 1;
-}
-
-#google-main:hover {
-    opacity: 0;
+    width: 272px;
+    height: 96px;
 }
 
 .search-bar {
@@ -128,22 +95,16 @@ body {
     padding: 0px 40px;
     font-size: 15px;
     color: #363636;
-    background: #d8e2dc;
-    background-image: linear-gradient(to bottom, #d8e2dc, #9c9c9b 100%);
+    background: #fff;
 }
 
 #image {
-    color: #45473e;
+    color: #6ca2f8;
     position: absolute;
     margin: auto;
     margin-top: 73px;
-    margin-left: 188px;
+    margin-left: 210px;
     cursor: default;
-}
-
-#image:hover {
-    color: #6ca2f8;
-    transition: all 0.5s ease;
 }
 
 #submit-image {
