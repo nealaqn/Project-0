@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #b7b7a4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffe8d6;
+    background-image: linear-gradient(to top,#b7b7a4 0%,#ffe8d6 90%);
+    font-size: 1.25rem;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    position: sticky;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1700px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+
+#navbar-logo {
+    background: #b7b7a4 ;
+    background-image: linear-gradient(to top,#6b705c 0%, #b7b7a4 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.3rem;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    height: 50px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-items {
+    height: 30px;
+}
+
+
+.navbar-links {
+    color: #6b705c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 227px;
+    text-decoration: none;
+}
+
+.navbar-links:hover {
+    color: #fff;
+    transition: all 0.5s ease;
+}               
+
+.header1 {
+    color: #535748;
+    margin-left: 50px;
+    padding: 25px 0;
+}
+
+.header2 {
+    color: #535748;
+    font-size: 18px;
+}
+
+.body-container {
+    color: #535748;
+    width: 1000px;
+    font-size: 15px;
+    margin: 45px 2% 0 45px;
+
+}
+
+.line {
+    border-bottom: 1px solid #d1d1d1;
+    margin-left: 0;
+}
+
+#spacing {
+    display: inline-block;
+    min-width: 300px;
+    vertical-align: middle;
+}
+
+.layers {
+    display: flex;
+    margin: 20px 0;
+    
+}
+
+.text-box:not(.text-box-range)  {
+    max-width: 651.5px;
+}
+
+.text-box-range {
+    max-width: 310.5px;
+}
+
+.text-box {
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 3px 10px;
+    background: #d8e2dc;
+    background-image: linear-gradient(to bottom, #d8e2dc, #9c9c9b 100%);
+}
+
+.first-box {
+    min-width: 210px;
+
+}
+
+.second-box {
+    min-width: 700px;
+}
+
+.third-box {
+    min-width: 350px;
+    font-size: 11px;
+}
+
+input[type="text"], select {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    position: relative;
+    left: 780px;
+    color: #363636;
+    padding: 4px 15px;
+    margin: 7px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #d1d1bd;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    border: 1px solid rgb(228, 225, 225);
+}
